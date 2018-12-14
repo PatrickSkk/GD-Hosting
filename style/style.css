@@ -261,6 +261,9 @@ body {
     all: initial;
     all: unset;
 }
+footer {
+	background-color: #00C7FE
+}
 .space {
 	margin-top: 52%;
 }
@@ -286,7 +289,11 @@ body {
 .footer-nospace{
 	margin-left: 0px!important;
 	margin-right: 0px!important;
+	padding-bottom: 2%
 }
 .footer-spacetop {
 	margin-top: 2%;
+}
+.footer-name {
+	margin-left: 5%;
 }
