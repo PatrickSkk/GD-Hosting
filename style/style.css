@@ -3,7 +3,7 @@ body {
 }
 .body {
 	background-color: #1F2630;
-	background-image: linear-gradient(#1F2630 55%,#222B6C 45%)
+	background-image: linear-gradient(#1F2630,#222B6C 70%)
 }
 .container-fluid {
 	margin-top: 12%;
@@ -296,4 +296,5 @@ footer {
 }
 .footer-name {
 	margin-left: 5%;
+	color: #222B6C!important;
 }
