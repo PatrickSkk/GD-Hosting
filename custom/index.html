@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link href="../js/roundslider.css" rel="stylesheet" />
+    <script src="../js/roundslider.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet"> 
+    <title>GD-Hosting | Custom plan</title>
+    <link rel="shortcut icon" type="image/png" href="../images/logo.png"/>
+  </head>
+  <body class="body-custom">
+<nav class="navbar fixed-top navbar-dark bg-hosting navbar-expand-lg">
+  <img src="../images/logo.png" class="nav-logo"><a class="navbar-brand" href="#"><p class="nav-name">GD-Hosting</p><p class="nav-lore">Next level hosting.</p></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT US</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          PLANS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item active" href="../index.html#box-container">MINECRAFT HOSTING</a>
+          <a class="dropdown-item" href="#">WEB HOSTING</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">NEWS</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col head">
+          <h1 class="title">Custom plan.</h1>
+          <h4>Choose what you need.</h4>
+        </div>
+      </div>
+    </div>
+  <div class="container window">
+      <div class="row">
+        <div class="col-md-12 custom-box-color">
+          <div class="container-fluid nospace-top">
+            <div class="form-group">
+               <div class="row">
+                <div class="col">
+                <p class="form-names">Email address</p>
+                <input type="email" class="form-control email" id="email" placeholder="name@example.com" required>
+                </div>
+                <div class="col">
+                <p class="form-names">Discord</p>
+  <div class="input-group mb-2 mr-sm-2">
+    <input type="text" class="form-control discord1" id="discord1" placeholder="Example" required>
+    <div class="input-group-prepend">
+      <div class="input-group-text">#</div>
+    </div>
+    <input type="number" class="form-control discord2" id="discord2" placeholder="0000" min="1" max="9999" required>
+  </div>
+                </div>
+              </div>
+            </div>
+              <div class="form-group form-group2">
+                <div class="row">
+                <div class="col">
+                <p class="form-names">RAM [MB]</p>
+                <div class="control">
+                <div id="shape"></div>
+                <p class="lore">you can use the scroll to increase or remove the mb</p>
+            </div>
+            
+    <script type="text/javascript">
+        $(document).ready(function () {
+        $("#shape").roundSlider({
+         mouseScrollAction: true,
+         min: 512,
+         max: 8192,
+         radius: 120,
+         circleShape: "half-top",
+         step: 128,
+         width: 20,
+        handleSize: "30,30",
+         handleShape: "dot",
+            sliderType: "min-range",
+          value: 512,
+          tooltipFormat: "tooltipVal2"
+        });
+        });
+    </script>
+                </div>
+                <div class="col">
+                <p class="form-names">Location</p>
+                <select class="form-control location" id="location" required>
+                  <option>European Union</option>
+                  <option>United States</option>
+                </select>
+                </div>
+                <div class="col">
+                <p class="form-names">Disk [MB]</p>
+                                <div class="control">
+                                <div id="shape2"></div>
+                                <p class="lore">you can use the scroll to increase or remove the mb</p>
+                                </div>
+            </div>
+            
+    <script type="text/javascript">
+        $(document).ready(function () {
+        $("#shape2").roundSlider({
+         mouseScrollAction: true,
+         min: 1024,
+         max: 102400,
+         radius: 120,
+         circleShape: "half-top",
+         width: 20,
+         step: 1024,
+         handleSize: "30,30",
+         handleShape: "dot",
+         sliderType: "min-range",
+         value: 1024,
+         tooltipFormat: "tooltipVal2"
+        });
+        });
+                function tooltipVal2(args) {
+                return args.value + " MB";
+                }
+    </script>
+                </div>
+              </div>
+                <button class="btn btn-outline-primary boton" type="submit">Ask for my plan</button>
+              </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+<footer class="footer-window">
+  <div class="footer">
+    <img src="../images/footer2.jpg" class="image-footer">
+    <div class="row color-footer footer-nospace">
+      <div class="col-md-12 footer-spacetop">
+        <h3 class="footer-name nav-name">GD-Hosting</h3>
+      </div>
+    </div>
+  </div>
+</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

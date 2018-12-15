@@ -1,9 +1,13 @@
 body {
-	min-height: 1600px;
+	min-height: 100%;
 }
 .body {
-	background-color: #1F2630;
+	background-color: #222B6C;
 	background-image: linear-gradient(#1F2630,#222B6C 70%)
+}
+.body-custom {
+	background-color: #222B6C;
+	background-image: linear-gradient(#1F2630,#222B6C 60%)
 }
 .container-fluid {
 	margin-top: 12%;
@@ -14,6 +18,7 @@ body {
 .navbar-nav .nav-item {
 	font-family: 'PT Sans Narrow', sans-serif;
 	line-height: 2.5!important;
+	font-size: 17px;
 	font-weight: bold;
 }
 .navbar {
@@ -34,13 +39,14 @@ body {
 	font-style: italic;
 }
 .dropdown-menu {
-	background-color: #343a40!important;
+	background-color: rgba(19,22,27,.6)!important;
 }
 .dropdown-item {
 	color:white!important;
+	font-family: 'Roboto', sans-serif!important;
 }
 .dropdown-item:hover {
-	background-color: #696969!important;
+	background-color:  rgba(19,22,27,.9)!important;
 }
 .head {
 	font-family: 'PT Sans Narrow', sans-serif;
@@ -297,4 +303,153 @@ footer {
 .footer-name {
 	margin-left: 5%;
 	color: #222B6C!important;
+}
+.custom-box-color {
+	background-color: rgba(19,22,27,.8);
+	border-radius: 30px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.nospace-top {
+	margin-top: 0px!important;
+}
+.form-names {
+	color: white;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+.form-group2 {
+	margin-top: 5%;
+}
+#shape .rs-range-color  {
+    background-color: #33B5E5;
+    border: 1px solid;
+}
+#shape .rs-path-color  {
+    background-color: #1F2630;
+}
+#shape .rs-handle  {
+    background-color: transparent;
+    padding: 7px;
+    -webkit-border-radius: 0!important;
+    -moz-border-radius: 0!important;
+    border-radius: 0!important;
+    margin: -21px 0px 0px -10px!important;
+}
+#shape .rs-handle.rs-focus  {
+    border-color: #33B5E5;
+}
+#shape .rs-handle:after  {
+    background-color: transparent;
+    border-color:transparent transparent transparent #222B6C!important;
+    border-style: solid;
+    border-width: 12px;
+    border-bottom-left-radius: none!important;
+}
+#shape .rs-border  {
+    border-color: transparent;
+}
+#shape .rs-handle-dot {
+    border:none!important;
+}
+#shape .rs-bg-color {
+    background-color: #161927!important;
+}
+#shape .rs-tooltip-text {
+    font-size: 30px;
+    color: #33B5E5!important;
+}
+#shape .rs-tooltip.hover, .rs-tooltip.edit:hover {
+
+    border: 1px solid #33B5E5;
+    cursor: pointer;
+
+}
+#shape2 .rs-range-color  {
+    background-color: #33B5E5;
+    border: 1px solid;
+}
+#shape2 .rs-path-color  {
+    background-color: #1F2630;
+}
+#shape2 .rs-handle  {
+    background-color: transparent;
+    padding: 7px;
+    -webkit-border-radius: 0!important;
+    -moz-border-radius: 0!important;
+    border-radius: 0!important;
+    margin: -21px 0px 0px -10px!important;
+}
+#shape2 .rs-handle.rs-focus  {
+    border-color: #33B5E5;
+}
+#shape2 .rs-handle:after  {
+    background-color: transparent;
+    border-color:transparent transparent transparent #222B6C!important;
+    border-style: solid;
+    border-width: 12px;
+    border-bottom-left-radius: none!important;
+}
+#shape2 .rs-border  {
+    border-color: transparent;
+}
+#shape2 .rs-handle-dot {
+    border:none!important;
+}
+#shape2 .rs-bg-color {
+    background-color: #161927!important;
+}
+#shape2 .rs-tooltip-text {
+    font-size: 30px;
+    color: #33B5E5!important;
+}
+#shape2 .rs-tooltip.hover, .rs-tooltip.edit:hover {
+
+    border: 1px solid #33B5E5;
+    cursor: pointer;
+
+}
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+ 
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+#shape {
+	margin:0 auto;
+}
+#shape2 {
+	margin:0 auto;
+}
+.boton {
+  margin: 0 auto!important;
+  display: block!important;
+}
+.btn-outline-primary:hover {
+	transition: .5s;
+}
+.btn {
+	transition: .5s!important;
+}
+.discord1 {
+	margin-left: 15%;
+}
+.discord2 {
+	margin-right: 15%;
+}
+.email {
+	margin-left: 15%;
+	width: 70%!important;
+}
+.location {
+	margin-left: 15%;
+	width: 70%!important;
+}
+.lore {
+	color: white;
+	text-align: center;
+	font-style: 5px!important;
 }
